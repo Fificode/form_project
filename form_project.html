@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+     
+*{box-sizing: border-box;}
+body{margin: 0;
+padding: 0;
+line-height: 1.8em;
+background-color: #344a72;
+font-family: 'Raleway', sans-serif;}
+
+.container{
+max-width: 400px;
+
+margin: 30px auto;
+padding: 20px;}
+
+.form-wrap{background-color: white;
+padding: 15px 20px;}
+.form-wrap .form-group{margin-top: 15px;}
+
+
+.signup{text-align: center;}
+
+
+.label{display: block;
+color: #666;
+}
+
+.input{display: block;
+    width: 100%;
+padding: 10px;
+border-radius: 5px;
+border: 1px solid #ddd;}
+
+.button{padding: 10px;
+margin-top: 20px;
+    border-radius: 2px;
+width: 100%;
+background-color: #49c1a2;
+display: block;
+color: white;
+cursor: pointer;}
+
+.button:hover{background-color: #37a08e;}
+
+.terms_and_privacy{font-size: 13px;
+margin-top: 20px;}
+
+p{text-align: center;}
+a{text-decoration: none;}
+.account{color: white;}
+.link{color: #49c1a2;}
+</style>
+</head>
+
+
+<body>
+ <div class="container">
+
+<div class="form-wrap">
+     <h1 class="signup">Sign Up</h1>
+    <p>It's free and only takes a minute</p>
+<form>
+   <div class="form-group">
+    <label class="label" for="firstname">First Name</label>
+    <input class="input" type="text" name="firstname"></div>
+    <div class="form-group">
+    <label class="label" for="lastname">Last Name</label>
+    <input class="input" type="text" name="lastname"></div>
+    <div class="form-group">
+    <label class="label" for="email">Email</label>
+    <input class="input" type="email" name="email"></div>
+    <div class="form-group">
+    <label class="label" for="password">Password</label>
+    <input class="input" type="password" name="password"></div>
+    <div class="form-group">
+    <label class="label" for="confirm_password">Confirm password</label>
+    <input  class="input" type="password" name="confirm_password"></div>
+
+  <button class="button" >Sign Up</button> <p class="terms_and_privacy">By clicking the Sign up button you agree to our <a href="#">Terms & Conditions</a> and<a href="#"> Privacy Policy</a></p>
+</form>
+
+
+</div> <p class="account">Already have an account? <a href="#" class="link">Login Here</a></p> 
+
+ </div>
+  
+</body>
+</html>
